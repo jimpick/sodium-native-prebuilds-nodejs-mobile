@@ -1,6 +1,6 @@
 {
   "name": "sodium-native-prebuilds-nodejs-mobile",
-  "version": "2.1.6-6",
+  "version": "2.1.6-7",
   "description": "sodium-native prebuilds for nodejs-mobile",
   "scripts": {
     "clean": "rm -rf sodium-native prebuilds",
