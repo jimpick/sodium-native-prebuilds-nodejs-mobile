@@ -1,14 +1,27 @@
 {
   "name": "sodium-native-prebuilds-nodejs-mobile",
-  "version": "2.1.6-5",
+  "version": "2.1.6-6",
   "description": "sodium-native prebuilds for nodejs-mobile",
+  "scripts": {
+    "clean": "rm -rf sodium-native prebuilds",
+    "build-ios": "./build-ios-arm64.sh",
+    "build": "npm run clean && npm run build-ios"
+  },
   "contributors": [
     "Jim Pick (@jimpick)",
     "Emil Bay <github@tixz.dk> (http://bayes.dk)",
     "Mathias Buus (@mafintosh)"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimpick/sodium-native-prebuilds-nodejs-mobile.git"
+  },
   "license": "MIT",
   "dependencies": {
     "node-gyp-build": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodejs-mobile-gyp": "^0.1.1",
+    "nodejs-mobile-react-native": "^0.1.4"
   }
 }
