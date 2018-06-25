@@ -1,0 +1,14 @@
+{
+  "name": "sodium-native-prebuilds-nodejs-mobile",
+  "version": "2.1.6-5",
+  "description": "sodium-native prebuilds for nodejs-mobile",
+  "contributors": [
+    "Jim Pick (@jimpick)",
+    "Emil Bay <github@tixz.dk> (http://bayes.dk)",
+    "Mathias Buus (@mafintosh)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-gyp-build": "^3.4.0"
+  }
+}

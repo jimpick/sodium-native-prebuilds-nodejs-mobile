@@ -1,0 +1,6 @@
+node_modules
+prebuilds
+package-lock.json
+nodejs-assets
+sodium-native
+yarn.lock
