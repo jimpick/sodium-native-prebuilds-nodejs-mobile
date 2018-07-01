@@ -1,10 +1,10 @@
 {
   "name": "sodium-native-prebuilds-nodejs-mobile",
-  "version": "2.1.6-7",
+  "version": "2.1.6-8",
   "description": "sodium-native prebuilds for nodejs-mobile",
   "scripts": {
     "clean": "rm -rf sodium-native prebuilds",
-    "build-ios": "./build-ios-arm64.sh",
+    "build-ios": "./build-ios-arm64.sh && ./build-ios-x64.sh",
     "build": "npm run clean && npm run build-ios"
   },
   "contributors": [
