@@ -25,19 +25,10 @@ pushd sodium-native
 
 git checkout ios-prebuild
 
-rm -rf node_modules/prebuildify
 SODIUM_NATIVE=1 npm install
 
 rm -rf libsodium
 npm run fetch-libsodium
-
-pushd node_modules
-rm -rf prebuildify
-git clone git@github.com:jimpick/prebuildify.git
-pushd prebuildify
-git checkout ios
-popd
-popd
 
 npx prebuildify \
   --strip \
